@@ -1,0 +1,17 @@
+{
+	"name": "Bookmark Demo",
+	"description": "Bookmark using enigma.js",
+	"type": "visualization",
+	"version": "1.0.0",
+	"preview": "preview.png",
+	"author": "Patric Amatulli",
+	"company": "axeed AG",
+	"homepage": "https://www.linkedin.com/in/patricamatulli/",
+	"email":	"patric.amatulli@axeed.ch",
+	"keywords": "qlik-sense, visualization",	
+	"license": "2017 © axeed AG - All rights reserved.",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
