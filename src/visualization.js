@@ -6,7 +6,6 @@ define(['qlik', 'jquery', './config', 'text!./style.css'],
 
         var global = qlik.getGlobal();
         var app = qlik.currApp(_this);
-        console.log(app);
         var enigmaModel = app.model.enigmaModel;
 
         $('<style>').html(style).appendTo('head');
@@ -91,8 +90,6 @@ define(['qlik', 'jquery', './config', 'text!./style.css'],
                             "qType": enigmaModel.layout.qTitle
                         }
                     };
-
-                    console.log(bookmark);
 
                     enigmaModel.createBookmark(bookmark).then((model) => {
 
